@@ -1,0 +1,144 @@
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
+      "name": "Multi-Arm Bandits for recommendations",
+      "createdAt": "2020-12-17T13:13:00Z",
+      "url": "https://abhishek-maheshwarappa.medium.com/multi-arm-bandits-for-recommendations-and-a-b-testing-on-amazon-ratings-data-set-9f802f2c4073",
+      "description": "Multi-Arm Bandits for recommendations and A/B testing on Amazon ratings data set",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
+      "name": "Reinforcement Learning for Stock Trading",
+      "createdAt": "2020-11-14T13:13:00Z",
+      "url": "https://abhishek-maheshwarappa.medium.com/reinforcement-learning-for-stock-trading-d4e487b1b280",
+      "description": "One of the most interesting fields of AI is Reinforcement learning, which came into popularity in 2016 when the computer AlphaGO into the light..",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Installing CUDA on windows 10",
+      "createdAt": "2020-06-23T16:26:54Z",
+      "url": "https://abhishek-maheshwarappa.medium.com/installing-cuda-for-nvidia-gpu-and-cudnn-on-windows-10-f03e6e82f265",
+      "description": "Installing CUDA for Nvidia GPU and cuDNN on windows 10. Aim of this article is to provide easy steps to install CUDA and get it up and running for the project and other applications",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "nvdia_logo.png"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
+      "name": "Getting started with EC2 instance",
+      "createdAt": "2020-06-21T11:53:55Z",
+      "url": "https://medium.com/amazon-aws/getting-started-with-ec2-instance-38fe64b929c",
+      "description": "Amazon EC2(Elastic Compute Cloud) provides secure, resizable compute capacity in the cloud, eliminating the need to invest in hardware.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-aws"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
+      "name": "Integration - FastAPI and Snowflake",
+      "createdAt": "2020-06-09T14:24:55Z",
+      "url": "https://abhishek-maheshwarappa.medium.com/integration-between-python-fastapi-and-snowflake-954d90c83b7d,",
+      "description": "Basics of integration of FAST API and Snowflake",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
+      "name": "A basic introduction into FastAPI",
+      "createdAt": "2020-09-25T05:00:56Z",
+      "url": "https://abhishek-maheshwarappa.medium.com/a-basic-introduction-into-fastapi-3b97157cabfb",
+      "description": "FastAPI is a modern, fast (high-performance), a web framework for building APIs with Python 3.6+ based on standard Python type hints.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
+      "name": "Getting started with EC2 instance",
+      "createdAt": "2020-11-25T13:13:00Z",
+      "url": "https://medium.com/amazon-aws/getting-started-with-ec2-instance-38fe64b929c",
+      "description": "Amazon EC2(Elastic Compute Cloud) provides secure, resizable compute capacity in the cloud, eliminating the need to invest in hardware.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
+      "name": "Shapely Values - Explainable AI",
+      "createdAt": "2020-09-1T17:25:51Z",
+      "url": "https://medium.com/abhi-kar/shap-up-51a059fbd9a9",
+      "description": "SHAP is a technique that generates explanations on a machine learning model.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    }
+  ]
+}
