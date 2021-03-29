@@ -168,7 +168,7 @@ const degrees = {
       descriptions: [
         "⚡ Courses: Data Science, Advance Data Science, Deep Learning and Reinforcement Learning, Algorithmic Digital Marketing, Artificial Intelligence and  High-Performance Parallel Computing",
         "⚡ Apart from these courses, I have studied Data Base management system, Data visualization and Program structure Algorithms",
-        "⚡ I was as a Teaching Assistant for Advance Data science and Algorithmic Digital marketing",
+        "⚡ I was Graduating Teaching Assistant for Advance Data science and Algorithmic Digital marketing",
       ],
       website_link: "https://www.northeastern.edu/",
     },
@@ -362,7 +362,7 @@ const contactPageData = {
     title: "Contact Me",
         profile_image_path: "abhishek_maheshwarappa.png",
     description:
-  "I am available on virtually every social media. I can help you with Machine Learning, Deep Learning, Reinforcement Learning and Explainable AI problems."
+  "I am available virtually on every social media. I can help you with Machine Learning, Deep Learning, Reinforcement Learning and Explainable AI problems."
   },
    addressSection: {
     title: "Address",
