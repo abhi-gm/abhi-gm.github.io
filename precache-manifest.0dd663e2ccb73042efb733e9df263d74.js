@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93d303bb0081d63a7631bb79a4e60a36",
+    "revision": "c0a03d8e9cd087550515518ec895b4fd",
     "url": "/index.html"
   },
   {
-    "revision": "11f021beb8369c58c547",
-    "url": "/static/css/main.c5be7870.chunk.css"
+    "revision": "0b7b6245f610f195b02f",
+    "url": "/static/css/main.de123235.chunk.css"
   },
   {
-    "revision": "18f9ad630232e516ca66",
-    "url": "/static/js/2.2d7a4962.chunk.js"
+    "revision": "e557c0c3acf22dd69422",
+    "url": "/static/js/2.ab613b1b.chunk.js"
   },
   {
-    "revision": "11f021beb8369c58c547",
-    "url": "/static/js/main.fc6ec86f.chunk.js"
+    "revision": "0b7b6245f610f195b02f",
+    "url": "/static/js/main.2e5a32b8.chunk.js"
   },
   {
-    "revision": "a9fc96ac43e60f1208bc",
-    "url": "/static/js/runtime-main.be0efcb2.js"
+    "revision": "bb28483e31b532a14000",
+    "url": "/static/js/runtime-main.c149ee00.js"
   },
   {
     "revision": "0c615b240b68ae93385dc33983abc7c7",
@@ -224,8 +224,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/legato_logo.4ba886ba.png"
   },
   {
-    "revision": "f63857f941e37414994e03905cca33a8",
-    "url": "/static/media/logoDesign.f63857f9.svg"
+    "revision": "184b788e3f2cdfac56835ebec1f06f87",
+    "url": "/static/media/logoDesign.184b788e.svg"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",

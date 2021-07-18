@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5be7870.chunk.css",
-    "main.js": "/static/js/main.fc6ec86f.chunk.js",
-    "main.js.map": "/static/js/main.fc6ec86f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.be0efcb2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.be0efcb2.js.map",
-    "static/js/2.2d7a4962.chunk.js": "/static/js/2.2d7a4962.chunk.js",
-    "static/js/2.2d7a4962.chunk.js.map": "/static/js/2.2d7a4962.chunk.js.map",
+    "main.css": "/static/css/main.de123235.chunk.css",
+    "main.js": "/static/js/main.2e5a32b8.chunk.js",
+    "main.js.map": "/static/js/main.2e5a32b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c149ee00.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c149ee00.js.map",
+    "static/js/2.ab613b1b.chunk.js": "/static/js/2.ab613b1b.chunk.js",
+    "static/js/2.ab613b1b.chunk.js.map": "/static/js/2.ab613b1b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9e7942d21871fe99a775a5b892ad05c2.js": "/precache-manifest.9e7942d21871fe99a775a5b892ad05c2.js",
+    "precache-manifest.0dd663e2ccb73042efb733e9df263d74.js": "/precache-manifest.0dd663e2ccb73042efb733e9df263d74.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c5be7870.chunk.css.map": "/static/css/main.c5be7870.chunk.css.map",
+    "static/css/main.de123235.chunk.css.map": "/static/css/main.de123235.chunk.css.map",
     "static/media/AISkunk_logo.png": "/static/media/AISkunk_logo.0c615b24.png",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/COE_logo.png": "/static/media/COE_logo.14b710b2.png",
@@ -41,7 +41,7 @@
     "static/media/internshala_logo.PNG": "/static/media/internshala_logo.bafc23cf.PNG",
     "static/media/jsFramework.svg": "/static/media/jsFramework.b05ae5b5.svg",
     "static/media/legato_logo.png": "/static/media/legato_logo.4ba886ba.png",
-    "static/media/logoDesign.svg": "/static/media/logoDesign.f63857f9.svg",
+    "static/media/logoDesign.svg": "/static/media/logoDesign.184b788e.svg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
     "static/media/muffito_logo.png": "/static/media/muffito_logo.db6c1c0d.png",
     "static/media/neu.jpg": "/static/media/neu.5006651a.jpg",
@@ -60,9 +60,9 @@
     "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.67a6a11c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.be0efcb2.js",
-    "static/js/2.2d7a4962.chunk.js",
-    "static/css/main.c5be7870.chunk.css",
-    "static/js/main.fc6ec86f.chunk.js"
+    "static/js/runtime-main.c149ee00.js",
+    "static/js/2.ab613b1b.chunk.js",
+    "static/css/main.de123235.chunk.css",
+    "static/js/main.2e5a32b8.chunk.js"
   ]
 }
