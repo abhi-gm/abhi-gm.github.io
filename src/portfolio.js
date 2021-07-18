@@ -254,8 +254,7 @@ const experience = {
           duration: "Jan 2020 - PRESENT",
               location: "Quincy, MA",
           description:
-              "Designed a deep learning classifier for more than 70 classes with a test accuracy of 98 percent using transfer learning. Created a method for using a state-of-the-art Microsoft vision model for using it for to extracting features from the image and employ transfer learning using that for classification Algorithm. Implementing MLOps pipeline in Azure Machine learning for a project with a deep learning model, that gets the data from the datastore, trains the model, tests the model and deploying it as a web service. Devised a method for using Azure Synapse helping the clients to find a unified place for building pipeline, train model write a query script and monitor all on the power BI and make integration seamless",
-          color: "#0879bf",
+            "Designed a deep learning classifier for more than 70 classes with a test accuracy of 98 percent using transfer learning. Created a method for using a state-of-the-art Microsoft vision model for using it for to extracting features from the image and employ transfer learning using that for classification Algorithm. Built CI/CD pipeline in Azure DevOps for training model, packaging it with ML Flow, containerizing it with Seldon, functional testing the images and deploying these models on to Kubernetes Cluster to provide microservice for prediction. Drafted Ethical AI framework for the organization's data science team for building AI system with ethical guardrails",          color: "#0879bf",
         },
         {
             title: "Machine Learning Research Assistant ",
@@ -265,8 +264,7 @@ const experience = {
           duration: "May 2019 - Dec 2019",
             location: "Burlington, Massachusetts",
           description:
-                "Worked on python scripts to model any dataset in H20.ai with a preprocessor, feature selection and Auto ML modeling with the prediction on the client data. Implemented Explainable AI techniques for understanding the black box models, by generating SHAP values for different models by parallelizing multiple H20.ai clusters. Introduced a method to reduce the time taken for data conversion from H20 to pandas from 1.30 hour to 3.26 minutes on the dataset.",
-          color: "#9b1578",
+            " Productionized the code to model any dataset using H2O to generate predictions on the client datasets. Implemented an Explainable AI technique for the model using SHAP for throwing light on black box models by multiprocessing. Created a method for SHAP generation and evaluation which brought down the time from 2 hours to 15 minutes.",          color: "#9b1578",
         },
         {
             title: "Machine Learning Engineer",
