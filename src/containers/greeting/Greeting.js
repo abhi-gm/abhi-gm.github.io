@@ -4,53 +4,71 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FeelingProud from "./FeelingProud";
 
 export default function Greeting(props) {
   const theme = props.theme;
+  const heroHighlights = greeting.heroHighlights || [];
+
   return (
     <Fade bottom duration={2000} distance="40px">
-      <div className="greet-main" id="greeting">
-        <div className="greeting-main">
-          <div className="greeting-text-div">
-            <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
-              </h1>
-              <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                ( {greeting.nickname} )
-              </h2>
-              <p
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {greeting.subTitle}
+      <section className="hero" id="greeting">
+        <div className="hero__grid">
+          <div className="hero__content">
+            {greeting.heroEyebrow && (
+              <span className="hero__eyebrow">{greeting.heroEyebrow}</span>
+            )}
+            <h1 className="hero__title">{greeting.title}</h1>
+            {greeting.nickname && (
+              <p className="hero__nickname">aka {greeting.nickname}</p>
+            )}
+            <p className="hero__subtitle">{greeting.subTitle}</p>
+
+            {heroHighlights.length > 0 && (
+              <ul className="hero__bullet-list">
+                {heroHighlights.map((highlight, index) => (
+                  <li key={`${highlight}-${index}`}>{highlight}</li>
+                ))}
+              </ul>
+            )}
+
+            {greeting.transformationNote && (
+              <div className="hero__note">{greeting.transformationNote}</div>
+            )}
+
+            <div className="hero__actions">
+              <Button
+                text="Download Resume"
+                newTab={true}
+                href={greeting.resumeLink}
+                theme={theme}
+              />
+              {greeting.mediumLink && (
+                <Button
+                  text="Read My Medium"
+                  newTab={true}
+                  href={greeting.mediumLink}
+                  theme={theme}
+                  variant="outline"
+                />
+              )}
+            </div>
+
+            <SocialMedia theme={theme} />
+          </div>
+
+          <div className="hero__visual">
+            <div className="hero-card">
+              <div className="hero-card__badge">No Hair, No Limits</div>
+              <div className="hero-card__headline">Bold ideas. Bald head.</div>
+              <p className="hero-card__copy">
+                Navigating the sweet spot between experimentation and
+                production so teams ship reliable data products faster.
               </p>
-               <SocialMedia theme={theme} />
-              {/*<div className="portfolio-repo-btn-div">*/}
-              {/*  <Button*/}
-              {/*    text="⭐ Star Me On Github"*/}
-              {/*    newTab={true}*/}
-              {/*    href={greeting.portfolio_repository}*/}
-              {/*    theme={theme}*/}
-              {/*    className="portfolio-repo-btn"*/}
-              {/*  />*/}
-              {/*</div>*/}
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+              <div className="hero-card__glow" />
             </div>
           </div>
-          <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
-          </div>
         </div>
-      </div>
+      </section>
     </Fade>
   );
 }

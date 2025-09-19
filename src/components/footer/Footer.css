@@ -1,10 +1,19 @@
-.footer-text {
+.footer-div {
+  width: min(100%, 1200px);
+  margin: 80px auto 40px;
+  padding: 0 32px;
   text-align: center;
-  /* color: #868e96; */
-  font-weight: bold;
-  font-family: "Google Sans Regular";
 }
 
-.footer-div {
-  margin-top: 2rem;
+.footer-text {
+  color: var(--color-subtle);
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-family: "Google Sans Medium", "Space Grotesk", sans-serif;
+  font-size: 0.85rem;
+}
+
+.footer-text span[role="img"] {
+  filter: saturate(120%);
 }

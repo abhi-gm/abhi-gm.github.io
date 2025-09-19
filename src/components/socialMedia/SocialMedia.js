@@ -19,10 +19,12 @@ export default function socialMedia(props) {
       {socialMediaLinks.map((media) => {
         return (
           <a
+            key={media.name}
             href={media.link}
             className={`icon-button`}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={media.name}
           >
             <IconWrapper {...media} {...props}>
               <i className={`fab ${media.fontAwesomeIcon}`}></i>

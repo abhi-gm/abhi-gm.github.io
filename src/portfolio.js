@@ -10,10 +10,18 @@ const greeting = {
   title: "Abhishek Maheshwarappa",
   logo_name: "Abhishek Maheshwarappa",
   nickname: "Abhi",
+  heroEyebrow: "Data Scientist · MLOps Engineer",
   subTitle:
-    "Passionate Data scientist, Data Science & Machine Learning Ops Co-op at Retail Business Services and Graduate student at Northeastern University.",
-  resumeLink:
-    "https://github.com/abhi-gm/Resume-CV/blob/master/abhishek_CV.pdf",
+    "Architecting reliable machine learning platforms for retail and fintech teams while pushing the envelope on advanced analytics at Northeastern University.",
+  heroHighlights: [
+    "Shipping resilient MLOps systems that take models from notebooks to governed production pipelines.",
+    "Scaling data science practices with automation, observability, and narrative storytelling that inspires adoption.",
+    "Living proof that being boldly bald and relentlessly curious is a superpower in tech leadership.",
+  ],
+  transformationNote:
+    "My profile has levelled up from experiment-focused analyst to platform-minded builder—and that growth energy fuels every engagement I take on next.",
+  resumeLink: "/Abhishek_Maheshwarappa_Resume.pdf",
+  mediumLink: "https://abhishek-maheshwarappa.medium.com/",
 };
 
 const socialMediaLinks = [
@@ -38,6 +46,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
+  {
+    name: "Medium",
+    link: "https://abhishek-maheshwarappa.medium.com/",
+    fontAwesomeIcon: "fa-medium-m",
+    backgroundColor: "#12100E",
+  },
   // {
   //   name: "YouTube",
   //   link: "https://www.youtube.com/channel/UCf09ES5sjZK-5E1BZf286tw",
@@ -46,7 +60,7 @@ const socialMediaLinks = [
   // },
   {
     name: "Gmail",
-    link: "mailto:abhigm.kar@gmail@gmail.com",
+    link: "mailto:abhigm.kar@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },

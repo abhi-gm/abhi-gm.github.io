@@ -1,23 +1,41 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+  font-size: 2.6rem;
+  margin: 24px 0 0;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  font-family: "Google Sans Regular";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: rgba(24, 24, 28, 0.6);
+  border: 1px solid rgba(250, 204, 21, 0.1);
+  box-shadow: 0 18px 40px rgba(5, 5, 8, 0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
+.software-skill-inline:hover {
+  transform: translateY(-4px);
+  border-color: rgba(250, 204, 21, 0.45);
+  box-shadow: 0 24px 55px rgba(5, 5, 8, 0.6);
+}
+
+.software-skill-inline > span,
 .software-skill-inline > i {
-  color: #868e96;
+  color: var(--color-text);
 }
 
-.software-skill-inline > i:hover {
-  color: #645beb;
+@media (max-width: 640px) {
+  .dev-icons {
+    justify-content: center;
+  }
 }
