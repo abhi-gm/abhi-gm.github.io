@@ -11,6 +11,7 @@ import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
+// eslint-disable-next-line no-unused-vars
 const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
@@ -78,9 +79,9 @@ class Contact extends Component {
           {/*    </div>*/}
           {/*    <div className="blog-heading-img-div">*/}
           {/*      /!* <img*/}
-					{/*						src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}*/}
-					{/*						alt=""*/}
-					{/*					/> *!/*/}
+          {/*						src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}*/}
+          {/*						alt=""*/}
+          {/*					/> *!/*/}
           {/*      <BlogsImg theme={theme} />*/}
           {/*    </div>*/}
           {/*  </div>*/}
