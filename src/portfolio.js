@@ -10,16 +10,16 @@ const greeting = {
   title: "Abhishek Maheshwarappa",
   logo_name: "Abhishek Maheshwarappa",
   nickname: "Abhi",
-  heroEyebrow: "Data Scientist · MLOps Engineer",
+  heroEyebrow: "Data Science Manager · MLOps Strategist",
   subTitle:
-    "Architecting reliable machine learning platforms for retail and fintech teams while pushing the envelope on advanced analytics at Northeastern University.",
+    "Leading high-impact data science teams that translate experimentation into production-grade intelligence for global retail and fintech organizations.",
   heroHighlights: [
-    "Shipping resilient MLOps systems that take models from notebooks to governed production pipelines.",
-    "Scaling data science practices with automation, observability, and narrative storytelling that inspires adoption.",
-    "Living proof that being boldly bald and relentlessly curious is a superpower in tech leadership.",
+    "Lead cross-functional data science teams that deliver multi-cloud forecasting and personalization systems for enterprise retail and fintech partners.",
+    "Operationalised an end-to-end MLOps platform that shrinks model deployment cycles from weeks to hours while exceeding reliability SLAs.",
+    "Mentor emerging analytics leaders, publish applied MLOps playbooks on Medium, and share career lessons with an engaged LinkedIn community.",
   ],
   transformationNote:
-    "My profile has levelled up from experiment-focused analyst to platform-minded builder—and that growth energy fuels every engagement I take on next.",
+    "From hands-on modeler to data science manager, my focus shifted to scaling people, platforms, and storytelling—the trio that powers trustworthy AI.",
   resumeLink: "/Abhishek_Maheshwarappa_Resume.pdf",
   mediumLink: "https://abhishek-maheshwarappa.medium.com/",
 };
@@ -90,10 +90,10 @@ const skills = {
       title: "Data Science & Machine Learning",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Building CI/CD pipelines for training ML models, packaging and monitoring the ML models and deploying into Kubernetes Cluster ",
-        "⚡ Developing scalable production-ready Machine Learning models for various use cases to create business value",
-        "⚡ Experience in working with DeepLearning and Classical machine learning algorithms.",
-        "⚡ Experience in working with ML-OPS - Deploying machine learning models into production,",
+        "⚡ Scaling cross-functional data science teams that ship resilient ML products across retail, CPG, and fintech portfolios.",
+        "⚡ Architecting MLOps blueprints—feature pipelines, automated testing, observability, and governance—for multi-cloud environments.",
+        "⚡ Applying deep learning, causal inference, and classical ML techniques to unlock measurable revenue, margin, and customer outcomes.",
+        "⚡ Coaching analysts and engineers on Responsible AI, experiment design, and storytelling so insights earn executive trust.",
 
         // "⚡ Co-Author of a hands-on book on Explainable AI on model Interpretability on techniques - PDP, ICE, LIME and Shapely",
       ],
@@ -247,9 +247,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteering",
+  subtitle: "Leadership, Hands-on Delivery & Community",
   description:
-    "I have worked with organizations as Machine Learning Engineer, Data scientist and Ml-ops Engineer. Experienced in creating and implementing data-driven solutions to complex business problems. I am one of the founding members of the largest student group in Northeastern University and served on the Executive Board as Vice president of Research operations..",
+    "Data science leader with 8+ years spanning hands-on modeling, production engineering, and people leadership. I build multidisciplinary teams, implement battle-tested MLOps practices, and partner with business leaders to unlock measurable value while upholding Responsible AI principles. Founding member of Northeastern University's AI Skunkworks and an active mentor to the next wave of analytics talent.",
 
   header_image_path: "experience.svg",
   sections: [
@@ -257,25 +257,25 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Data Science / Machine Learning Ops (Co-op)",
-          company: "Retail Business Services",
-          company_url: "https://legatohealthtech.com/",
+          title: "Data Science Manager, Advanced Analytics & MLOps",
+          company: "Retail Business Services (An Ahold Delhaize Company)",
+          company_url: "https://www.retailbusinessservices.com/",
           logo_path: "RBS_logo.png",
-          duration: "Jan 2020 - PRESENT",
+          duration: "Jan 2021 - Present",
           location: "Quincy, MA",
           description:
-            "Designed a deep learning classifier for more than 70 classes with a test accuracy of 98 percent using transfer learning. Created a method for using a state-of-the-art Microsoft vision model for extracting features from the image and employ the transfer learning using that for classification Algorithm and also contributed to Microsoft opensource Repository. Built CI/CD pipeline in Azure DevOps for training model, packaging it with ML Flow, containerizing it with Seldon, functional testing the images, and using Docker to containerize it and pushing it to Azure Container Registry. Deploying Machine Learning models onto Kubernetes Cluster to provide microservice for prediction with. Refactoring the script to make it Production-ready for the deployment of the models for inference scoring. Drafted an Ethical AI framework for the organization's data science team for building an AI system with ethical guardrails.",
+            "Lead a team of data scientists, ML engineers, and product partners who deliver mission-critical forecasting and personalization products for enterprise retail banners. Architected the enterprise MLOps platform across Azure and GCP—introducing automated testing, lineage, and model governance that reduced deployment timeframes from weeks to hours. Partner with senior leadership to roadmap AI investments, evangelize Responsible AI practices, and translate experimentation into measurable business lift.",
           color: "#0879bf",
         },
         {
-          title: "Machine Learning Research Assistant ",
+          title: "Machine Learning Research Assistant",
           company: "Squark",
           company_url: "https://squarkai.com/",
           logo_path: "squark_logo.png",
           duration: "May 2019 - Dec 2019",
           location: "Burlington, Massachusetts",
           description:
-            " Modularizing the data pipeline into preprocessor, data scrubber, and model training use H20. Productionizing the script for working with any dataset to generate predictions on the client datasets. Packaging and Containerizing the pipeline with Docker to move everything Ec2 instance for inference scoring. Implemented an Explainable AI technique for the models using SHAP for throwing light on black box models by multiprocessing. Created a method for SHAP generation and evaluation which brought down the time of generation from 2 hours to 15 minutes.",
+            "Modularized the data pipeline into reusable preprocessing, data quality, and AutoML components (H2O) so Squark customers could generate predictions on their own datasets. Productionized containerized inference services on AWS, and built SHAP-based explainability workflows that cut explanation time from two hours to fifteen minutes.",
           color: "#9b1578",
         },
         {
@@ -284,9 +284,9 @@ const experience = {
           company_url: "https://www.rovelabs.com/",
           logo_path: "rove_logo.png",
           duration: "Jun 2017 - Jul 2019",
-          location: "Bengaluru, Indiat",
+          location: "Bengaluru, India",
           description:
-            "Constructed ML models for data collected from the IoT (Internet of Things) devices and sensors. Built dashboards for analyzing the data coming from the IoT devices. Designed different machine learning models as proof of concept for different client data for predictive modeling. Working with Raspberry Pi for projects like automatic lighting control of the warehouse and identifying the space for trucks entering the warehouses. Conducted a cutting-edge workshop for institutions and software enthusiasts.",
+            "Owned the full lifecycle of predictive models for IoT telemetry—including data acquisition, feature engineering, model prototyping, and production deployment. Deployed analytics dashboards that empowered operations teams with real-time warehouse insights and delivered client-facing proofs of concept for logistics optimization.",
           color: "#fc1f20",
         },
       ],
@@ -355,15 +355,15 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I love working on different projects and exploring which use a wide variety of technologies and tools in Data Science, Machine Learning and MLops domain.\n",
+    "Selected engagements that blend experimentation with execution—spanning computer vision, large-scale demand planning, marketing science, and the MLOps foundations that keep those initiatives releasable.",
   avatar_image_path: "projects_image.svg",
 };
 
 // blog Page
 const blogHeader = {
-  title: "Blogs",
+  title: "Articles & Playbooks",
   description:
-    "The fulfilling feeling of giving back and contributing to society is unparalleled, as a student of Data Science, I enjoy writing blogs on different varieties of Machine Learning and Data Science subjects.",
+    "Long-form stories and practical guides on production-ready machine learning, leadership in data science, and ethical AI—curated from my Medium publication and LinkedIn newsletters.",
   avatar_image_path: "blog.png",
 };
 
@@ -373,7 +373,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "abhishek_maheshwarappa.png",
     description:
-      "I am available virtually on every social media. I can help you with Machine Learning, Deep Learning, Reinforcement Learning and Explainable AI problems.",
+      "Let’s connect if you’re scaling data science teams, building reliable ML platforms, or exploring advisory support. I’m always up for conversations about Responsible AI, analytics leadership, and storytelling with data.",
   },
   addressSection: {
     title: "Address",

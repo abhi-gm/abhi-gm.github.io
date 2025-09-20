@@ -58,11 +58,14 @@ export default function Greeting(props) {
 
           <div className="hero__visual">
             <div className="hero-card">
-              <div className="hero-card__badge">No Hair, No Limits</div>
-              <div className="hero-card__headline">Bold ideas. Bald head.</div>
+              <div className="hero-card__badge">Leadership Spotlight</div>
+              <div className="hero-card__headline">
+                Data products, people, and platforms in harmony.
+              </div>
               <p className="hero-card__copy">
-                Navigating the sweet spot between experimentation and
-                production so teams ship reliable data products faster.
+                I help teams frame the right problems, operationalize machine
+                learning responsibly, and launch experiences that customers and
+                executives trust.
               </p>
               <div className="hero-card__glow" />
             </div>
